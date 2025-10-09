@@ -29,11 +29,11 @@ const Index = () => {
   }, {
     icon: Globe,
     title: "Global Operations",
-    description: "Fly to destinations across the Middle East, Europe, Asia, and beyond"
+    description: "Riyadh Virtual provides opportunity to explore the word far and wide"
   }, {
     icon: Users,
     title: "Realistic Career Mode",
-    description: "Join experienced pilots committed to realistic flight operations"
+    description: "Experience the most realistic career mode in Infinite Flight different from others"
   }];
   return <div className="min-h-screen">
       {/* Hero Section */}
@@ -118,7 +118,7 @@ const Index = () => {
                   <CardTitle className="text-primary">{feature.title}</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-muted-foreground">Our airline is certified by IFVARB showing it is up to the standards required</p>
+                  <p className="text-muted-foreground">{feature.description}</p>
                 </CardContent>
               </Card>)}
           </div>
