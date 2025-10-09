@@ -23,6 +23,9 @@ const About = () => {
     event: "Riyadh Virtual Airlines founded"
   }, {
     year: "2025",
+    event: ""
+  }, {
+    year: "2025",
     event: "First international routes launched"
   }];
   return <div className="min-h-screen">

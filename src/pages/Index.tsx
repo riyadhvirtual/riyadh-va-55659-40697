@@ -23,6 +23,10 @@ const Index = () => {
     value: "x+"
   }];
   const features = [{
+    icon: Award,
+    title: "",
+    description: ""
+  }, {
     icon: Globe,
     title: "Global Operations",
     description: "Riyadh Virtual provides opportunity to explore the word far and wide"
@@ -38,6 +42,9 @@ const Index = () => {
         <div className="absolute inset-0 bg-black/30"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 lg:py-32">
           <div className="text-center animate-fade-in">
+            <Badge className="mb-6 bg-white/20 text-white border-white/30 hover:bg-white/30">
+              
+            </Badge>
             <h1 className="text-5xl lg:text-7xl font-bold mb-6">
               Riyadh Virtual
               <span className="block text-4xl lg:text-5xl text-white/90 font-normal">
