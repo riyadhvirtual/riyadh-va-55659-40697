@@ -3,7 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
-import riyadhAirLogo from "@/assets/riyadh-air-icon.png";
+import riyadhAirLogo from "@/assets/riyadh-virtual-logo.png";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
