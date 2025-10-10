@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Mail, Instagram, Plane } from "lucide-react";
-import riyadhAirLogo from "@/assets/riyadh-air-icon.png";
+import riyadhAirLogo from "@/assets/riyadh-virtual-logo.png";
 
 const Footer = () => {
   return (
