@@ -29,7 +29,7 @@ const Index = () => {
   }, {
     icon: Globe,
     title: "Global Operations",
-    description: "Riyadh Virtual provides opportunity to explore the word far and wide"
+    description: "Riyadh Air Virtual provides opportunity to explore the word far and wide"
   }, {
     icon: Users,
     title: "Realistic Career Mode",
@@ -46,10 +46,7 @@ const Index = () => {
               
             </Badge>
             <h1 className="text-5xl lg:text-7xl font-bold mb-6">
-              Riyadh Virtual
-              <span className="block text-4xl lg:text-5xl text-white/90 font-normal">
-                Airlines
-              </span>
+              Riyadh Air Virtual
             </h1>
             <p className="text-xl lg:text-2xl text-white/90 mb-8 max-w-3xl mx-auto">
               Experience premium virtual aviation with professional standards, 
@@ -101,7 +98,7 @@ const Index = () => {
       <section className="py-20 bg-muted/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16 animate-fade-in">
-            <h2 className="text-4xl font-bold text-foreground mb-4">Why Choose Riyadh Virtual?</h2>
+            <h2 className="text-4xl font-bold text-foreground mb-4">Why Choose Riyadh Air Virtual?</h2>
             <p className="text-xl text-muted-foreground">
               Professional virtual aviation with authentic Middle Eastern hospitality
             </p>
@@ -129,7 +126,7 @@ const Index = () => {
       <section className="py-20 bg-gradient-primary text-primary-foreground">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center animate-fade-in">
           <h2 className="text-4xl font-bold mb-6">Ready for Takeoff?</h2>
-          <p className="text-xl text-primary-foreground/90 mb-8 max-w-3xl mx-auto">Join the many pilots who've chosen Riyadh Virtual for their virtual aviation journey.</p>
+          <p className="text-xl text-primary-foreground/90 mb-8 max-w-3xl mx-auto">Join the many pilots who've chosen Riyadh Air Virtual for their virtual aviation journey.</p>
           <Link to="/join">
             <Button variant="hero" size="xl">
               Apply Now

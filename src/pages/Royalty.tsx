@@ -172,7 +172,7 @@ const Royalty = () => {
               The Path to Glory
             </h2>
             <p className="text-lg text-foreground/90 max-w-3xl mx-auto leading-relaxed">
-              The Royalty Program represents the pinnacle of achievement at Riyadh Virtual Airline. 
+              The Royalty Program represents the pinnacle of achievement at Riyadh Air Virtual.
               These exclusive ranks are reserved for pilots who have demonstrated unparalleled dedication, 
               skill, and commitment to excellence. Each tier brings unique privileges and recognition 
               that set you apart as true aviation royalty.

@@ -20,7 +20,7 @@ const About = () => {
   }];
   const milestones = [{
     year: "2025",
-    event: "Riyadh Virtual Airlines founded"
+    event: "Riyadh Air Virtual founded"
   }, {
     year: "2025",
     event: ""
@@ -33,7 +33,7 @@ const About = () => {
       <section className="bg-gradient-hero text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center animate-fade-in">
-            <h1 className="text-5xl font-bold mb-6">About Riyadh Virtual</h1>
+            <h1 className="text-5xl font-bold mb-6">About Riyadh Air Virtual</h1>
             <p className="text-xl text-white/90 max-w-3xl mx-auto">Get to know more about the team of enthusiastic pilots behind this massive undertaking</p>
           </div>
         </div>
@@ -92,29 +92,29 @@ const About = () => {
         </div>
       </section>
 
-      {/* About Riyadh Virtual Airline */}
+      {/* About Riyadh Air Virtual */}
       <section className="py-20 bg-muted/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="relative">
             <Card className="shadow-elegant animate-fade-in">
               <CardHeader>
-                <CardTitle className="text-4xl text-primary">About Riyadh Virtual Airline</CardTitle>
+                <CardTitle className="text-4xl text-primary">About Riyadh Air Virtual</CardTitle>
               </CardHeader>
               <CardContent className="space-y-4 text-muted-foreground text-lg leading-relaxed">
                 <p>
-                  Welcome to Riyadh Virtual Airlines – the next generation of virtual aviation on Infinite Flight! Inspired by the real-world Riyadh Air, we're here to bring the energy, culture, and ambition of Saudi Arabia into the skies of the simulator. Founded in 2025, RVA was built on the belief that flying should be exciting, community-driven, and truly global.
+                  Welcome to Riyadh Air Virtual – the next generation of virtual aviation on Infinite Flight! Inspired by the real-world Riyadh Air, we're here to bring the energy, culture, and ambition of Saudi Arabia into the skies of the simulator. Founded in 2025, Riyadh Air Virtual was built on the belief that flying should be exciting, community-driven, and truly global.
                 </p>
                 <p>
-                  At RVA, you'll experience the thrill of flying a modern and versatile fleet, including the Boeing 787-9 Dreamliner and the Airbus A321neo. Whether it's short regional hops across the Middle East or long-haul journeys to Europe, Asia, or Africa, our routes connect Riyadh to the world. With King Khalid International Airport (OERK) as our home base, every flight is a new opportunity to explore, learn, and grow with fellow aviation enthusiasts.
+                  At Riyadh Air Virtual, you'll experience the thrill of flying a modern and versatile fleet, including the Boeing 787-9 Dreamliner and the Airbus A321neo. Whether it's short regional hops across the Middle East or long-haul journeys to Europe, Asia, or Africa, our routes connect Riyadh to the world. With King Khalid International Airport (OERK) as our home base, every flight is a new opportunity to explore, learn, and grow with fellow aviation enthusiasts.
                 </p>
                 <p>
-                  But what really makes Riyadh Virtual Airlines special is our community. We're more than just a VA – we're a family of passionate pilots who support each other, share our love for aviation, and celebrate every milestone together. From events and group flights to casual hangouts, RVA is all about enjoying the journey, not just the destination.
+                  But what really makes Riyadh Air Virtual special is our community. We're more than just a VA – we're a family of passionate pilots who support each other, share our love for aviation, and celebrate every milestone together. From events and group flights to casual hangouts, Riyadh Air Virtual is all about enjoying the journey, not just the destination.
                 </p>
                 <p>
-                  So, if you're looking for a virtual airline that combines modern aircraft, exciting destinations, and a welcoming community, then your next adventure starts here. Join Riyadh Virtual Airlines today, and be part of the future taking flight!
+                  So, if you're looking for a virtual airline that combines modern aircraft, exciting destinations, and a welcoming community, then your next adventure starts here. Join Riyadh Air Virtual today, and be part of the future taking flight!
                 </p>
                 <p className="font-semibold text-foreground text-xl">
-                  Riyadh Virtual Airlines — Fly the Future.
+                  Riyadh Air Virtual — Fly the Future.
                 </p>
               </CardContent>
             </Card>

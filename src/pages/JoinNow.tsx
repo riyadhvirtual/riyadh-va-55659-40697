@@ -8,7 +8,7 @@ const JoinNow = () => {
     { text: <><strong>Minimum of landings:</strong> 100 landings</>, id: 4 },
     { text: <><strong>Violation-to-Landing Ratio:</strong> Less or equal to 0.10/10%</>, id: 5 },
     { text: <><strong>Level 2 and 3 violations:</strong> Max four (4) within the last year.</>, id: 6 },
-    { text: <><strong>Riyadh Virtual Entrance Exam:</strong> Score 80% or higher (when you fail, you can re-apply the next week)</>, id: 7 },
+    { text: <><strong>Riyadh Air Virtual Entrance Exam:</strong> Score 80% or higher (when you fail, you can re-apply the next week)</>, id: 7 },
     { text: <strong>Must be able to communicate in English</strong>, id: 8 },
     { text: <strong>Must be able to communicate on Discord</strong>, id: 9 }
   ];
@@ -18,7 +18,7 @@ const JoinNow = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center animate-fade-in">
           <h1 className="text-5xl md:text-6xl font-bold mb-6">Join Our Team</h1>
           <p className="text-xl text-primary-foreground/90 mb-8 max-w-3xl mx-auto">
-            Start your journey with Riyadh Virtual Airlines and become part of our professional pilot community.
+            Start your journey with Riyadh Air Virtual and become part of our professional pilot community.
           </p>
         </div>
       </section>

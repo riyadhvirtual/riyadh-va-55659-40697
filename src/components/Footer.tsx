@@ -91,10 +91,10 @@ const Footer = () => {
         {/* Copyright */}
         <div className="border-t border-border mt-8 pt-8 text-center space-y-2">
           <p className="text-muted-foreground text-sm">
-            © {new Date().getFullYear()} Riyadh Virtual Airline. All rights reserved.
+            © {new Date().getFullYear()} Riyadh Air Virtual. All rights reserved.
           </p>
           <p className="text-muted-foreground text-xs">
-            Infinite Flight Riyadh VA is not affiliated with, endorsed, or sponsored by Riyadh Air.<br />
+            Infinite Flight Riyadh Air Virtual is not affiliated with, endorsed, or sponsored by Riyadh Air.<br />
             All Riyadh Air logos are registered trademarks of Riyadh Air.
           </p>
         </div>
