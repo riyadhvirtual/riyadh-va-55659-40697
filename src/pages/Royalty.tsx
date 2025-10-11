@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 const Royalty = () => {
   const royalRanks = [
     {
-      title: "Senior Captain",
+      title: "Sfeer Elite Silver",
       hours: "400+ hours",
       description: "The gateway to royalty",
       benefits: [
@@ -14,7 +14,7 @@ const Royalty = () => {
       ]
     },
     {
-      title: "Riyadh's Commander",
+      title: "Sfeer Elite Gold",
       hours: "800+ hours",
       description: "Elite commander of the skies",
       benefits: [
@@ -77,7 +77,7 @@ const Royalty = () => {
                 backgroundClip: 'text'
               }}
             >
-              Royalty Program
+              Sfeer Royalty Program
             </h1>
             <p className="text-xl text-foreground/80 max-w-3xl mx-auto">
               Ascend to the highest echelons of aviation excellence. Only the most dedicated pilots reach the royal ranks.
@@ -172,7 +172,7 @@ const Royalty = () => {
               The Path to Glory
             </h2>
             <p className="text-lg text-foreground/90 max-w-3xl mx-auto leading-relaxed">
-              The Royalty Program represents the pinnacle of achievement at Riyadh Air Virtual.
+              The Sfeer Royalty Program represents the pinnacle of achievement at Riyadh Air Virtual.
               These exclusive ranks are reserved for pilots who have demonstrated unparalleled dedication, 
               skill, and commitment to excellence. Each tier brings unique privileges and recognition 
               that set you apart as true aviation royalty.

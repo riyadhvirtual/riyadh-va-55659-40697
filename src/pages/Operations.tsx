@@ -34,9 +34,9 @@ const Operations = () => {
       benefits: ["Unlocks Career Modes", "Unlocks all flights with no hour restrictions", "Can fly all aircrafts across fleets"]
     },
     {
-      title: "Senior Captain",
+      title: "Sfeer Elite Silver",
       hours: "400+ hours",
-      benefits: ["Unlocks Royalty"],
+      benefits: ["Unlocks Sfeer Royalty"],
       hasRoyaltyButton: true
     }
   ];
@@ -119,7 +119,7 @@ const Operations = () => {
                           boxShadow: '0 4px 15px rgba(239, 191, 4, 0.4)'
                         }}
                       >
-                        Royalty
+                        Sfeer Royalty
                       </Button>
                     )}
                   </div>
