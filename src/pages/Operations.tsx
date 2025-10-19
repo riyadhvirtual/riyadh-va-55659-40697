@@ -51,6 +51,57 @@ const Operations = () => {
           </div>
         </div>
       </section>
+
+      {/* Our Routes */}
+      <section className="py-20 bg-muted/30">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16 animate-fade-in">
+            <h2 className="text-4xl font-bold text-foreground mb-4">Our Routes</h2>
+          </div>
+          
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <Card className="shadow-card hover:shadow-elegant transition-all duration-300 animate-slide-up">
+              <CardHeader>
+                <CardTitle className="text-2xl text-primary">London</CardTitle>
+              </CardHeader>
+              <CardContent className="space-y-3">
+                <div className="flex justify-between items-center">
+                  <span className="text-muted-foreground font-semibold">Airport ICAO:</span>
+                  <span className="text-foreground font-bold">EGLL</span>
+                </div>
+                <div className="flex justify-between items-center">
+                  <span className="text-muted-foreground font-semibold">Distance:</span>
+                  <span className="text-foreground font-bold">4950 km</span>
+                </div>
+                <div className="flex justify-between items-center">
+                  <span className="text-muted-foreground font-semibold">Aircraft:</span>
+                  <span className="text-foreground font-bold">Boeing 787-9 Dreamliner</span>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="shadow-card hover:shadow-elegant transition-all duration-300 animate-slide-up" style={{ animationDelay: "0.1s" }}>
+              <CardHeader>
+                <CardTitle className="text-2xl text-primary">Dubai</CardTitle>
+              </CardHeader>
+              <CardContent className="space-y-3">
+                <div className="flex justify-between items-center">
+                  <span className="text-muted-foreground font-semibold">Airport ICAO:</span>
+                  <span className="text-foreground font-bold">OMDB</span>
+                </div>
+                <div className="flex justify-between items-center">
+                  <span className="text-muted-foreground font-semibold">Distance:</span>
+                  <span className="text-foreground font-bold">875 km</span>
+                </div>
+                <div className="flex justify-between items-center">
+                  <span className="text-muted-foreground font-semibold">Aircraft:</span>
+                  <span className="text-foreground font-bold">Airbus A321neo</span>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
     </div>
   );
 };

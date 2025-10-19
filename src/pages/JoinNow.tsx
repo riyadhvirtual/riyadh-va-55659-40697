@@ -55,7 +55,7 @@ const JoinNow = () => {
           
           <div className="flex justify-center animate-slide-up">
             <a
-              href="#"
+              href="https://forms.gle/yWdWXDaEm5qRW8Hx9"
               target="_blank"
               rel="noopener noreferrer"
               className="px-12 py-6 text-xl font-semibold text-white rounded-lg transition-all duration-300 hover:scale-105 active:scale-95"

@@ -19,7 +19,7 @@ const About = () => {
     description: "Officially recognized by the Infinite Flight Virtual Airline Review Board."
   }];
   const milestones = [{
-    year: "October 11 2025",
+    year: "11 October 2025",
     event: "Riyadh Air Applies for IFVARB Certification"
   }, {
     year: "26 October 2025",
