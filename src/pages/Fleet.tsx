@@ -1,8 +1,8 @@
 import { Plane, Users, MapPin } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import boeing787Image from "@/assets/boeing-787-riyadh.png";
-import airbusA321Image from "@/assets/airbus-a321-riyadh.png";
+import boeing787Image from "@/assets/boeing-787-new.png";
+import airbusA321Image from "@/assets/a321neo-wip.png";
 const Fleet = () => {
   const aircraft = [{
     id: 1,
@@ -15,7 +15,7 @@ const Fleet = () => {
     status: "Active"
   }, {
     id: 2,
-    name: "Airbus A321neo",
+    name: "Airbus A321neo (Under WIP)",
     image: airbusA321Image,
     seating: "x passengers",
     range: "8,700 km",

@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import riyadhAirPlane from "@/assets/riyadh-air-plane.png";
-import aryanProfile from "@/assets/aryan-profile.png";
+import aryanProfile from "@/assets/aryan-profile-new.png";
 const About = () => {
   const features = [{
     icon: Globe,
@@ -19,14 +19,14 @@ const About = () => {
     description: "Officially recognized by the Infinite Flight Virtual Airline Review Board."
   }];
   const milestones = [{
-    year: "2025",
-    event: "Riyadh Air Virtual founded"
+    year: "October 11 2025",
+    event: "Riyadh Air Applies for IFVARB Certification"
+  }, {
+    year: "26 October 2025",
+    event: "First international routes launched"
   }, {
     year: "2025",
     event: ""
-  }, {
-    year: "2025",
-    event: "First international routes launched"
   }];
   return <div className="min-h-screen">
       {/* Hero Section */}
@@ -76,7 +76,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <div className="lg:pl-12 animate-slide-up" style={{
+            <div className="lg:pl-12 animate-slide-up space-y-6" style={{
             animationDelay: "0.2s"
           }}>
               <Card className="shadow-card">
@@ -85,6 +85,22 @@ const About = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">To provide the most authentic and professional virtual airline experience in the Middle East region, connecting pilots from around the world through our commitment to excellence and realistic operations, by emulating the operations of Riyadh Air.</p>
+                </CardContent>
+              </Card>
+              
+              <Card className="shadow-card">
+                <CardHeader>
+                  <CardTitle className="text-primary">Message From Our CEO</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <div className="text-muted-foreground space-y-4">
+                    <p>Greetings Pilots,</p>
+                    <p>When I first discovered Infinite Flight, I never imagined it would lead me here — to creating something that blends passion, professionalism, and purpose. For me, Riyadh Air Virtual isn't just another VA; it's a vision. A vision to bring the elegance, innovation, and ambition of Riyadh Air into the virtual skies, and to offer every pilot a place where they can truly belong.</p>
+                    <p>Riyadh Air Virtual was founded on three principles: authenticity, community, and growth. We strive to offer the most immersive and balanced VA experience — one that welcomes both the relaxed flyer and the realism enthusiast. Our dual career modes, our Sfeer Royalty Program, and our commitment to training reflect that belief: that every pilot, no matter their background, deserves a chance to grow and shine.</p>
+                    <p>This VA isn't about numbers or ranks — it's about people. It's about helping each pilot find joy in flying, purpose in learning, and pride in representing something that stands for quality. My team and I are dedicated to building an airline that feels professional yet personal — where every flight means something, and every pilot matters.</p>
+                    <p>To all future members of Riyadh Air Virtual: welcome aboard. Together, we're not just flying routes — we're writing a story of passion, excellence, and the spirit of aviation itself.</p>
+                    <p className="font-semibold text-foreground">– Aryan Bansal<br />CEO & President,<br />Riyadh Air Virtual</p>
+                  </div>
                 </CardContent>
               </Card>
             </div>
@@ -140,7 +156,8 @@ const About = () => {
                   />
                 </div>
                 <h3 className="text-xl font-bold text-foreground mb-2">Aryan Bansal</h3>
-                <p className="text-muted-foreground mb-4"><strong>Designation: Chief Executive Officer</strong></p>
+                <p className="text-muted-foreground mb-2"><strong>CEO & President</strong></p>
+                <p className="text-sm text-muted-foreground mb-4">Manages and Evolves the VA while taking the responsibility of its workings.</p>
                 <Button
                   className="w-full"
                   onClick={() => window.open('https://community.infiniteflight.com/u/aryan_bansal1/summary', '_blank')}

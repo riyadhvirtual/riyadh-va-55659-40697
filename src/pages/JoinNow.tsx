@@ -10,7 +10,8 @@ const JoinNow = () => {
     { text: <><strong>Level 2 and 3 violations:</strong> Max four (4) within the last year.</>, id: 6 },
     { text: <><strong>Riyadh Air Virtual Entrance Exam:</strong> Score 80% or higher (when you fail, you can re-apply the next week)</>, id: 7 },
     { text: <strong>Must be able to communicate in English</strong>, id: 8 },
-    { text: <strong>Must be able to communicate on Discord</strong>, id: 9 }
+    { text: <strong>Must be able to communicate on Discord</strong>, id: 9 },
+    { text: <strong>Valid Infinite Flight Pro Subscription</strong>, id: 10 }
   ];
   return <div className="min-h-screen">
       {/* Hero Section */}

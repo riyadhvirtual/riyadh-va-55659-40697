@@ -8,6 +8,7 @@ import Index from "./pages/Index";
 import About from "./pages/About";
 import Fleet from "./pages/Fleet";
 import Operations from "./pages/Operations";
+import Ranks from "./pages/Ranks";
 import EventsCareerMode from "./pages/EventsCareerMode";
 import Royalty from "./pages/Royalty";
 import JoinNow from "./pages/JoinNow";
@@ -28,6 +29,7 @@ const App = () => (
             <Route path="/about" element={<About />} />
             <Route path="/fleet" element={<Fleet />} />
             <Route path="/operations" element={<Operations />} />
+            <Route path="/ranks" element={<Ranks />} />
             <Route path="/events-career" element={<EventsCareerMode />} />
             <Route path="/royalty" element={<Royalty />} />
             <Route path="/join" element={<JoinNow />} />

@@ -13,8 +13,9 @@ const Navigation = () => {
     { name: "Home", path: "/" },
     { name: "About Us", path: "/about" },
     { name: "Fleet", path: "/fleet" },
-    { name: "Operations and Ranks", path: "/operations" },
-    { name: "Events and Career Mode", path: "/events-career" },
+    { name: "Operations & Routes", path: "/operations" },
+    { name: "Ranks", path: "/ranks" },
+    { name: "Events & Career Mode", path: "/events-career" },
     { name: "Join Now", path: "/join" },
     { name: "Contact", path: "/contact" },
   ];
