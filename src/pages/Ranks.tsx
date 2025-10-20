@@ -2,6 +2,11 @@ import { CheckCircle } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { useNavigate } from "react-router-dom";
+import rank1 from "@/assets/rank-1.png";
+import rank2 from "@/assets/rank-2.png";
+import rank3 from "@/assets/rank-3.png";
+import rank4 from "@/assets/rank-4.png";
+import rank5 from "@/assets/rank-5.png";
 
 const Ranks = () => {
   const navigate = useNavigate();
@@ -10,27 +15,32 @@ const Ranks = () => {
     {
       title: "Cadet Pilot",
       hours: "0-20 hours",
-      benefits: ["Unlocks A321neo", "Can fly flights within 2.5 hours", "Events Unlocked"]
+      benefits: ["Unlocks A321neo", "Can fly flights within 2.5 hours", "Events Unlocked"],
+      image: rank1
     },
     {
       title: "Junior First Officer",
       hours: "20-50 hours",
-      benefits: ["Unlocks Codeshares", "Can fly flights Within 4 hours", "Unlocks ROTW below 4 hours"]
+      benefits: ["Unlocks Codeshares", "Can fly flights Within 4 hours", "Unlocks ROTW below 4 hours"],
+      image: rank2
     },
     {
       title: "First Officer",
       hours: "50-100 hours", 
-      benefits: ["Unlocks all A321neo Riyadh Air flights", "Can fly narrow body codeshares within 7 hours", "Can fly narrow body ROTW flights within 7 hours"]
+      benefits: ["Unlocks all A321neo Riyadh Air flights", "Can fly narrow body codeshares within 7 hours", "Can fly narrow body ROTW flights within 7 hours"],
+      image: rank3
     },
     {
       title: "Senior First Officer",
       hours: "100-175 hours",
-      benefits: ["Unlocks Boeing 787-9 flights within 9 hours", "Can fly non A380, B747 codeshares, ROTW under 9 hours", "Unlocks cargo codeshares"]
+      benefits: ["Unlocks Boeing 787-9 flights within 9 hours", "Can fly non A380, B747 codeshares, ROTW under 9 hours", "Unlocks cargo codeshares"],
+      image: rank4
     },
     {
       title: "Captain",
       hours: "175-400 hours",
-      benefits: ["Unlocks Career Modes", "Unlocks all flights with no hour restrictions", "Can fly all aircrafts across fleets"]
+      benefits: ["Unlocks Career Modes", "Unlocks all flights with no hour restrictions", "Can fly all aircrafts across fleets"],
+      image: rank5
     },
     {
       title: "Sfeer Elite Silver",
@@ -64,6 +74,15 @@ const Ranks = () => {
                 className="shadow-card hover:shadow-elegant transition-all duration-300 animate-slide-up"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
+                {rank.image && (
+                  <div className="flex justify-center pt-6">
+                    <img 
+                      src={rank.image} 
+                      alt={rank.title}
+                      className="w-48 h-48 object-contain"
+                    />
+                  </div>
+                )}
                 <CardHeader>
                   <CardTitle className="text-primary text-lg">{rank.title}</CardTitle>
                   <p className="text-muted-foreground text-sm">{rank.hours}</p>

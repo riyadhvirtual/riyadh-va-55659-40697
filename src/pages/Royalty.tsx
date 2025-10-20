@@ -1,5 +1,10 @@
 import { Crown, CheckCircle } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import rank6 from "@/assets/rank-6.png";
+import rank7 from "@/assets/rank-7.png";
+import rank8 from "@/assets/rank-8.png";
+import rank9 from "@/assets/rank-9.png";
+import rank10 from "@/assets/rank-10.png";
 
 const Royalty = () => {
   const royalRanks = [
@@ -11,7 +16,8 @@ const Royalty = () => {
         "Induction into Royal lounge",
         "Can add 1 route of their choice (can only be flown by royalty)",
         "One 1.5x Multiplier flight every month"
-      ]
+      ],
+      image: rank6
     },
     {
       title: "Sfeer Elite Gold",
@@ -21,7 +27,8 @@ const Royalty = () => {
         "One 1.75x flight every month",
         "Priority PB at events",
         "Can request a custom event every 4 months"
-      ]
+      ],
+      image: rank7
     },
     {
       title: "Prince of Riyadh",
@@ -31,7 +38,8 @@ const Royalty = () => {
         "One 2x flight every month",
         "Inducted into Riyadh Board of Decisions",
         "Can add another route to Royalty database"
-      ]
+      ],
+      image: rank8
     },
     {
       title: "Crown Prince of Riyadh",
@@ -41,7 +49,8 @@ const Royalty = () => {
         "Two 1.5x flights every month",
         "Can fly private jets on any route across database",
         "Can choose a ROTW every second week"
-      ]
+      ],
+      image: rank9
     },
     {
       title: "Riyadh's King",
@@ -51,7 +60,8 @@ const Royalty = () => {
         "Can get a callsign within 100, Kings Lounge",
         "Five 1.5x flights every month",
         "Can add 2 additional routes to royalty database, can choose a ROTW every week"
-      ]
+      ],
+      image: rank10
     }
   ];
 
@@ -124,6 +134,13 @@ const Royalty = () => {
                     background: 'radial-gradient(circle, #EFBF04 0%, transparent 70%)'
                   }}
                 />
+                <div className="flex justify-center pt-6">
+                  <img 
+                    src={rank.image} 
+                    alt={rank.title}
+                    className="w-48 h-48 object-contain"
+                  />
+                </div>
                 <CardHeader>
                   <CardTitle 
                     className="text-lg flex items-center gap-2"
