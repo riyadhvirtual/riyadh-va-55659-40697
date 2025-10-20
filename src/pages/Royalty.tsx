@@ -134,11 +134,11 @@ const Royalty = () => {
                     background: 'radial-gradient(circle, #EFBF04 0%, transparent 70%)'
                   }}
                 />
-                <div className="flex justify-center pt-6">
+                <div className="flex justify-center -mt-2">
                   <img 
                     src={rank.image} 
                     alt={rank.title}
-                    className="w-48 h-48 object-contain"
+                    className="w-full h-48 object-cover"
                   />
                 </div>
                 <CardHeader>

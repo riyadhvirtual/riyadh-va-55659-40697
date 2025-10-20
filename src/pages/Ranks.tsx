@@ -71,15 +71,15 @@ const Ranks = () => {
             {ranks.map((rank, index) => (
               <Card 
                 key={rank.title}
-                className="shadow-card hover:shadow-elegant transition-all duration-300 animate-slide-up"
+                className="shadow-card hover:shadow-elegant transition-all duration-300 animate-slide-up overflow-hidden"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
                 {rank.image && (
-                  <div className="flex justify-center pt-6">
+                  <div className="flex justify-center -mt-2">
                     <img 
                       src={rank.image} 
                       alt={rank.title}
-                      className="w-48 h-48 object-contain"
+                      className="w-full h-48 object-cover"
                     />
                   </div>
                 )}
