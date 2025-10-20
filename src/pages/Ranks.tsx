@@ -75,11 +75,11 @@ const Ranks = () => {
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
                 {rank.image && (
-                  <div className="flex justify-center bg-gradient-to-b from-primary/5 to-transparent">
+                  <div className="w-full">
                     <img 
                       src={rank.image} 
                       alt={rank.title}
-                      className="w-full h-64 object-contain"
+                      className="w-full h-72 object-cover rounded-t-lg"
                     />
                   </div>
                 )}
