@@ -49,23 +49,27 @@ const JoinNow = () => {
       {/* Application Section */}
       <section className="py-20 bg-muted/30">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16 animate-fade-in">
+          <div className="text-center mb-8 animate-fade-in">
             <h2 className="text-4xl font-bold text-foreground mb-4">Apply Now</h2>
+            <p className="text-muted-foreground">Fill out the entrance exam/application form below</p>
           </div>
           
-          <div className="flex justify-center animate-slide-up">
-            <a
-              href="https://forms.gle/yWdWXDaEm5qRW8Hx9"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-12 py-6 text-xl font-semibold text-white rounded-lg transition-all duration-300 hover:scale-105 active:scale-95"
-              style={{
-                background: 'linear-gradient(135deg, #006a3d 0%, #005430 50%, #003d22 100%)',
-                boxShadow: '0 8px 20px rgba(0, 84, 48, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.2), inset 0 -1px 0 rgba(0, 0, 0, 0.3)',
-              }}
-            >
-              Entrance Exam/ Application
-            </a>
+          <div className="animate-slide-up">
+            <Card className="overflow-hidden">
+              <CardContent className="p-0">
+                <iframe
+                  src="https://docs.google.com/forms/d/e/1FAIpQLSd7yWdWXDaEm5qRW8Hx9/viewform?embedded=true"
+                  width="100%"
+                  height="800"
+                  frameBorder="0"
+                  marginHeight={0}
+                  marginWidth={0}
+                  className="w-full"
+                >
+                  Loading…
+                </iframe>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
