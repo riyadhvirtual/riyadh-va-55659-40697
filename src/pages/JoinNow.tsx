@@ -58,7 +58,7 @@ const JoinNow = () => {
             <Card className="overflow-hidden">
               <CardContent className="p-0">
                 <iframe
-                  src="https://docs.google.com/forms/d/e/1FAIpQLSd7yWdWXDaEm5qRW8Hx9/viewform?embedded=true"
+                  src="https://docs.google.com/forms/d/e/1FAIpQLSdxR6QS7uji9fSEbCms9/viewform?embedded=true"
                   width="100%"
                   height="800"
                   frameBorder="0"
