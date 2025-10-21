@@ -60,45 +60,46 @@ const Operations = () => {
           </div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <Card className="shadow-card hover:shadow-elegant transition-all duration-300 animate-slide-up">
-              <CardHeader>
-                <CardTitle className="text-2xl text-primary">London</CardTitle>
-              </CardHeader>
-              <CardContent className="space-y-3">
-                <div className="flex justify-between items-center">
-                  <span className="text-muted-foreground font-semibold">Airport ICAO:</span>
-                  <span className="text-foreground font-bold">EGLL</span>
-                </div>
-                <div className="flex justify-between items-center">
-                  <span className="text-muted-foreground font-semibold">Distance:</span>
-                  <span className="text-foreground font-bold">4950 km</span>
-                </div>
-                <div className="flex justify-between items-center">
-                  <span className="text-muted-foreground font-semibold">Aircraft:</span>
-                  <span className="text-foreground font-bold">Boeing 787-9 Dreamliner</span>
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card className="shadow-card hover:shadow-elegant transition-all duration-300 animate-slide-up" style={{ animationDelay: "0.1s" }}>
-              <CardHeader>
-                <CardTitle className="text-2xl text-primary">Dubai</CardTitle>
-              </CardHeader>
-              <CardContent className="space-y-3">
-                <div className="flex justify-between items-center">
-                  <span className="text-muted-foreground font-semibold">Airport ICAO:</span>
-                  <span className="text-foreground font-bold">OMDB</span>
-                </div>
-                <div className="flex justify-between items-center">
-                  <span className="text-muted-foreground font-semibold">Distance:</span>
-                  <span className="text-foreground font-bold">875 km</span>
-                </div>
-                <div className="flex justify-between items-center">
-                  <span className="text-muted-foreground font-semibold">Aircraft:</span>
-                  <span className="text-foreground font-bold">Airbus A321neo</span>
-                </div>
-              </CardContent>
-            </Card>
+            {[
+              { city: "London", icao: "EGLL", distance: "4950 km" },
+              { city: "Dubai", icao: "OMDB", distance: "875 km" },
+              { city: "Singapore", icao: "WSSS", distance: "6800 km" },
+              { city: "Beijing", icao: "ZBAA", distance: "5800 km" },
+              { city: "Shanghai", icao: "ZSPD", distance: "6500 km" },
+              { city: "Atlanta", icao: "KATL", distance: "11000 km" },
+              { city: "Los Angeles", icao: "KLAX", distance: "13300 km" },
+              { city: "New York", icao: "KJFK", distance: "10500 km" },
+              { city: "Cairo", icao: "HECA", distance: "1600 km" },
+              { city: "Istanbul", icao: "LTFM", distance: "2300 km" },
+              { city: "Manchester", icao: "EGCC", distance: "4800 km" },
+              { city: "Paris", icao: "LFPG", distance: "4700 km" },
+              { city: "Amsterdam", icao: "EHAM", distance: "4800 km" },
+              { city: "Doha", icao: "OTHH", distance: "440 km" },
+              { city: "Jeddah", icao: "OEJN", distance: "850 km" },
+              { city: "Abu Dhabi", icao: "OMAA", distance: "860 km" },
+              { city: "Dammam", icao: "OEDF", distance: "400 km" },
+              { city: "Medina", icao: "OEMA", distance: "850 km" },
+            ].map((route, index) => (
+              <Card 
+                key={route.icao}
+                className="shadow-card hover:shadow-elegant transition-all duration-300 animate-slide-up" 
+                style={{ animationDelay: `${index * 0.05}s` }}
+              >
+                <CardHeader>
+                  <CardTitle className="text-2xl text-primary">{route.city}</CardTitle>
+                </CardHeader>
+                <CardContent className="space-y-3">
+                  <div className="flex justify-between items-center">
+                    <span className="text-muted-foreground font-semibold">Airport ICAO:</span>
+                    <span className="text-foreground font-bold">{route.icao}</span>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-muted-foreground font-semibold">Distance:</span>
+                    <span className="text-foreground font-bold">{route.distance}</span>
+                  </div>
+                </CardContent>
+              </Card>
+            ))}
           </div>
         </div>
       </section>
