@@ -42,7 +42,7 @@ const About = () => {
       {/* What is a Virtual Airline */}
       <section className="py-20 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
+          <div className="grid lg:grid-cols-2 gap-12 items-center max-w-7xl mx-auto">
             <div className="animate-slide-up">
               <h2 className="text-4xl font-bold text-foreground mb-6">
                 What is a Virtual Airline?
@@ -54,21 +54,21 @@ const About = () => {
               </p>
               <div className="space-y-4">
                 <div className="flex items-start space-x-3">
-                  <CheckCircle className="h-6 w-6 text-primary mt-1" />
+                  <CheckCircle className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
                   <div>
                     <h3 className="font-semibold text-foreground">Realistic Operations</h3>
                     <p className="text-muted-foreground">Follow real-world procedures and flight planning</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
-                  <CheckCircle className="h-6 w-6 text-primary mt-1" />
+                  <CheckCircle className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
                   <div>
                     <h3 className="font-semibold text-foreground">Career Progression</h3>
                     <p className="text-muted-foreground">Advance through ranks based on flight hours and performance</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
-                  <CheckCircle className="h-6 w-6 text-primary mt-1" />
+                  <CheckCircle className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
                   <div>
                     <h3 className="font-semibold text-foreground">Community Events</h3>
                     <p className="text-muted-foreground">Participate in group flights and special operations</p>
@@ -95,10 +95,10 @@ const About = () => {
                 <CardContent>
                   <div className="text-muted-foreground space-y-4">
                     <p>Greetings Pilots,</p>
-                    <p>When I first discovered Infinite Flight, I never imagined it would lead me here — to creating something that blends passion, professionalism, and purpose. For me, Riyadh Air Virtual isn't just another VA; it's a vision. A vision to bring the elegance, innovation, and ambition of Riyadh Air into the virtual skies, and to offer every pilot a place where they can truly belong.</p>
-                    <p>Riyadh Air Virtual was founded on three principles: authenticity, community, and growth. We strive to offer the most immersive and balanced VA experience — one that welcomes both the relaxed flyer and the realism enthusiast. Our dual career modes, our Sfeer Royalty Program, and our commitment to training reflect that belief: that every pilot, no matter their background, deserves a chance to grow and shine.</p>
-                    <p>This VA isn't about numbers or ranks — it's about people. It's about helping each pilot find joy in flying, purpose in learning, and pride in representing something that stands for quality. My team and I are dedicated to building an airline that feels professional yet personal — where every flight means something, and every pilot matters.</p>
-                    <p>To all future members of Riyadh Air Virtual: welcome aboard. Together, we're not just flying routes — we're writing a story of passion, excellence, and the spirit of aviation itself.</p>
+                    <p>When I first discovered Infinite Flight, I never imagined it would lead me here — to creating something that blends <span className="font-bold text-green-600">passion, professionalism, and purpose</span>. For me, Riyadh Air Virtual isn't just another VA; it's a <span className="font-bold text-green-600">vision</span>. A vision to bring the <span className="font-bold text-green-600">elegance, innovation, and ambition</span> of Riyadh Air into the virtual skies, and to offer every pilot a place where they can truly belong.</p>
+                    <p>Riyadh Air Virtual was founded on three principles: <span className="font-bold text-green-600">authenticity, community, and growth</span>. We strive to offer the most <span className="font-bold text-green-600">immersive and balanced VA experience</span> — one that welcomes both the relaxed flyer and the realism enthusiast. Our <span className="font-bold text-green-600">dual career modes</span>, our <span className="font-bold text-green-600">Sfeer Royalty Program</span>, and our commitment to training reflect that belief: that every pilot, no matter their background, deserves a chance to <span className="font-bold text-green-600">grow and shine</span>.</p>
+                    <p>This VA isn't about numbers or ranks — it's about <span className="font-bold text-green-600">people</span>. It's about helping each pilot find <span className="font-bold text-green-600">joy in flying, purpose in learning, and pride</span> in representing something that stands for quality. My team and I are dedicated to building an airline that feels <span className="font-bold text-green-600">professional yet personal</span> — where every flight means something, and every pilot matters.</p>
+                    <p>To all future members of Riyadh Air Virtual: <span className="font-bold text-green-600">welcome aboard</span>. Together, we're not just flying routes — we're writing a story of <span className="font-bold text-green-600">passion, excellence, and the spirit of aviation itself</span>.</p>
                     <p className="font-semibold text-foreground">– Aryan Bansal<br />CEO & President,<br />Riyadh Air Virtual</p>
                   </div>
                 </CardContent>
@@ -111,7 +111,7 @@ const About = () => {
       {/* About Riyadh Air Virtual */}
       <section className="py-20 bg-muted/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="relative">
+          <div className="relative max-w-6xl mx-auto">
             <Card className="shadow-elegant animate-fade-in">
               <CardHeader>
                 <CardTitle className="text-4xl text-primary">About Riyadh Air Virtual</CardTitle>
@@ -134,65 +134,6 @@ const About = () => {
                 </p>
               </CardContent>
             </Card>
-          </div>
-        </div>
-      </section>
-
-      {/* Our Staff */}
-      <section className="py-20 bg-background">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16 animate-fade-in">
-            <h2 className="text-4xl font-bold text-foreground mb-4">Our Staff</h2>
-          </div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <Card className="shadow-card hover:shadow-elegant transition-all duration-300 animate-slide-up">
-              <CardContent className="p-6">
-                <div className="aspect-square bg-muted rounded-lg mb-4 flex items-center justify-center overflow-hidden">
-                  <img
-                    src={aryanProfile}
-                    alt="Aryan Bansal"
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <h3 className="text-xl font-bold text-foreground mb-2">Aryan Bansal</h3>
-                <p className="text-muted-foreground mb-2"><strong>CEO & President</strong></p>
-                <p className="text-sm text-muted-foreground mb-4">Manages and Evolves the VA while taking the responsibility of its workings.</p>
-                <Button
-                  className="w-full"
-                  onClick={() => window.open('https://community.infiniteflight.com/u/aryan_bansal1/summary', '_blank')}
-                >
-                  IFC
-                </Button>
-              </CardContent>
-            </Card>
-          </div>
-        </div>
-      </section>
-
-      {/* Company History */}
-      <section className="py-20 bg-background">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16 animate-fade-in">
-            <h2 className="text-4xl font-bold text-foreground mb-4">Our Journey</h2>
-            <p className="text-xl text-muted-foreground">
-              From inception to becoming a leading virtual airline
-            </p>
-          </div>
-          
-          <div className="max-w-4xl mx-auto">
-            <div className="space-y-8">
-              {milestones.map((milestone, index) => <div key={milestone.year} className="flex items-center space-x-8 animate-slide-up" style={{
-              animationDelay: `${index * 0.1}s`
-            }}>
-                  <div className="bg-gradient-primary text-primary-foreground font-bold text-xl px-6 py-4 rounded-lg min-w-[120px] text-center">
-                    {milestone.year}
-                  </div>
-                  <div className="flex-1 bg-card p-6 rounded-lg shadow-card border">
-                    <p className="text-lg text-foreground font-medium">{milestone.event}</p>
-                  </div>
-                </div>)}
-            </div>
           </div>
         </div>
       </section>

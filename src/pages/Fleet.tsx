@@ -11,7 +11,7 @@ const Fleet = () => {
     seating: "296 passengers",
     range: "14,140 km",
     routes: "Long Haul to Ultra Long Haul",
-    livery: "Riyadh Air",
+    livery: "Generic",
     status: "Active"
   }, {
     id: 2,
@@ -20,7 +20,7 @@ const Fleet = () => {
     seating: "x passengers",
     range: "8,700 km",
     routes: "Short to Medium-haul",
-    livery: "Riyadh Air",
+    livery: "Yet to be Determined",
     status: "Active"
   }];
   const fleetStats = [{
