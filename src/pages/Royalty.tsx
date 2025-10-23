@@ -134,12 +134,11 @@ const Royalty = () => {
                     background: 'radial-gradient(circle, #EFBF04 0%, transparent 70%)'
                   }}
                 />
-                <div className="w-full h-[378px] overflow-hidden rounded-t-lg relative z-10">
+                <div className="w-full relative z-10">
                   <img 
                     src={rank.image} 
                     alt={rank.title}
-                    className="w-full object-cover object-top"
-                    style={{ height: '500px', marginTop: '0px' }}
+                    className="w-full h-72 object-cover rounded-t-lg"
                   />
                 </div>
                 <CardHeader>
