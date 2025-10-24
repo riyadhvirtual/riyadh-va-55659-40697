@@ -138,7 +138,7 @@ const Royalty = () => {
                   <img 
                     src={rank.image} 
                     alt={rank.title}
-                    className="w-full h-72 object-cover rounded-t-lg"
+                    className="w-full h-48 object-cover rounded-t-lg"
                   />
                 </div>
                 <CardHeader>
