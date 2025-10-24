@@ -8,7 +8,7 @@ const Index = () => {
   const stats = [{
     icon: Users,
     label: "Active Pilots",
-    value: "2+"
+    value: "x+"
   }, {
     icon: Plane,
     label: "Aircraft",
@@ -16,7 +16,11 @@ const Index = () => {
   }, {
     icon: Globe,
     label: "Destinations",
-    value: "19+"
+    value: "x+"
+  }, {
+    icon: Star,
+    label: "Flights/Month",
+    value: "x+"
   }];
   const features = [{
     icon: Award,
