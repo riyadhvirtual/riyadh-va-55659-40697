@@ -30,10 +30,10 @@ const Operations = () => {
             <div className="flex-1">
               <h3 className="text-2xl font-bold text-foreground mb-4">Riyadh: Our Global Hub of Excellence</h3>
               <p className="text-lg text-foreground/90 leading-relaxed">
-                At the heart of our operations lies Riyadh, our primary hub and gateway to the world. Positioned at the crossroads of Asia, Europe, and Africa, Riyadh connects our passengers and cargo to over [X] international destinations with seamless efficiency.
+                At the heart of our operations lies Riyadh, our primary hub and gateway to the world. Positioned at the crossroads of Asia, Europe, and Africa, Riyadh connects our passengers and cargo to over 16+ international destinations with seamless efficiency.
               </p>
               <p className="text-lg text-foreground/90 leading-relaxed mt-4">
-                From here, we operate [X] daily flights, supported by state-of-the-art facilities, advanced digital infrastructure, and a dedicated team ensuring smooth connections and world-class service. Riyadh is not just a hub — it is the beating heart of our network, powering growth, innovation, and global connectivity.
+                From here, we operate 19+ daily flights, supported by state-of-the-art facilities, advanced digital infrastructure, and a dedicated team ensuring smooth connections and world-class service. Riyadh is not just a hub — it is the beating heart of our network, powering growth, innovation, and global connectivity.
               </p>
             </div>
             <div className="flex-1 grid grid-cols-1 gap-6">

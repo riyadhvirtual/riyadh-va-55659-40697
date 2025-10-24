@@ -40,60 +40,74 @@ const About = () => {
         </div>
       </section>
 
-      {/* Aircraft Image */}
-      <section className="py-12 bg-background">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="animate-fade-in">
-            <img 
-              src={riyadhAirTail} 
-              alt="Riyadh Air Aircraft" 
-              className="w-full h-auto rounded-lg shadow-elegant"
-            />
-          </div>
-        </div>
-      </section>
-
-      {/* What is a Virtual Airline */}
+      {/* Message from CEO with Image and Info Cards */}
       <section className="py-20 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-12 items-center max-w-7xl mx-auto">
-            <div className="animate-slide-up">
-              <h2 className="text-4xl font-bold text-foreground mb-6">
-                What is a Virtual Airline?
-              </h2>
-              <p className="text-lg text-muted-foreground mb-6">
-                A virtual airline is a simulated airline that operates within flight simulation 
-                platforms like Infinite Flight. We provide realistic flight operations, 
-                professional procedures, and career progression for aviation enthusiasts.
-              </p>
-              <div className="space-y-4">
-                <div className="flex items-start space-x-3">
-                  <CheckCircle className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
-                  <div>
-                    <h3 className="font-semibold text-foreground">Realistic Operations</h3>
-                    <p className="text-muted-foreground">Follow real-world procedures and flight planning</p>
+          <div className="grid lg:grid-cols-2 gap-12 items-start">
+            {/* Left Column: Image, What is a VA, and Our Mission */}
+            <div className="space-y-8">
+              {/* Aircraft Image */}
+              <div className="animate-fade-in">
+                <img
+                  src={riyadhAirTail}
+                  alt="Riyadh Air Aircraft"
+                  className="w-full h-auto rounded-lg shadow-elegant"
+                />
+              </div>
+
+              {/* What is a Virtual Airline */}
+              <div className="animate-slide-up">
+                <h2 className="text-4xl font-bold text-foreground mb-6">
+                  What is a Virtual Airline?
+                </h2>
+                <p className="text-lg text-muted-foreground mb-6">
+                  A virtual airline is a simulated airline that operates within flight simulation
+                  platforms like Infinite Flight. We provide realistic flight operations,
+                  professional procedures, and career progression for aviation enthusiasts.
+                </p>
+                <div className="space-y-4">
+                  <div className="flex items-start space-x-3">
+                    <CheckCircle className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
+                    <div>
+                      <h3 className="font-semibold text-foreground">Realistic Operations</h3>
+                      <p className="text-muted-foreground">Follow real-world procedures and flight planning</p>
+                    </div>
                   </div>
-                </div>
-                <div className="flex items-start space-x-3">
-                  <CheckCircle className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
-                  <div>
-                    <h3 className="font-semibold text-foreground">Career Progression</h3>
-                    <p className="text-muted-foreground">Advance through ranks based on flight hours and performance</p>
+                  <div className="flex items-start space-x-3">
+                    <CheckCircle className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
+                    <div>
+                      <h3 className="font-semibold text-foreground">Career Progression</h3>
+                      <p className="text-muted-foreground">Advance through ranks based on flight hours and performance</p>
+                    </div>
                   </div>
-                </div>
-                <div className="flex items-start space-x-3">
-                  <CheckCircle className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
-                  <div>
-                    <h3 className="font-semibold text-foreground">Community Events</h3>
-                    <p className="text-muted-foreground">Participate in group flights and special operations</p>
+                  <div className="flex items-start space-x-3">
+                    <CheckCircle className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
+                    <div>
+                      <h3 className="font-semibold text-foreground">Community Events</h3>
+                      <p className="text-muted-foreground">Participate in group flights and special operations</p>
+                    </div>
                   </div>
                 </div>
               </div>
+
+              {/* Our Mission */}
+              <div className="animate-fade-in">
+                <Card className="shadow-card">
+                  <CardHeader>
+                    <CardTitle className="text-primary text-3xl">Our Mission</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-muted-foreground text-lg">To provide the most authentic and professional virtual airline experience in the Middle East region, connecting pilots from around the world through our commitment to excellence and realistic operations, by emulating the operations of Riyadh Air.</p>
+                  </CardContent>
+                </Card>
+              </div>
             </div>
-            <div className="lg:pl-12 animate-slide-up" style={{
+
+            {/* Right Column: Message from CEO */}
+            <div className="lg:pl-4 animate-slide-up" style={{
             animationDelay: "0.2s"
           }}>
-              <Card className="shadow-card">
+              <Card className="shadow-card sticky top-8">
                 <CardHeader>
                   <CardTitle className="text-primary">Message From Our CEO</CardTitle>
                 </CardHeader>
@@ -110,20 +124,6 @@ const About = () => {
               </Card>
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* Our Mission */}
-      <section className="py-12 bg-background">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <Card className="shadow-card animate-fade-in">
-            <CardHeader>
-              <CardTitle className="text-primary text-center text-3xl">Our Mission</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <p className="text-muted-foreground text-lg text-center">To provide the most authentic and professional virtual airline experience in the Middle East region, connecting pilots from around the world through our commitment to excellence and realistic operations, by emulating the operations of Riyadh Air.</p>
-            </CardContent>
-          </Card>
         </div>
       </section>
 
