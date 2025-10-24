@@ -75,11 +75,11 @@ const Ranks = () => {
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
                 {rank.image && (
-                  <div className="w-full h-[378px] overflow-hidden">
+                  <div className="w-full overflow-hidden">
                     <img 
                       src={rank.image} 
                       alt={rank.title}
-                      className="w-full h-full object-cover object-top rounded-t-lg"
+                      className="w-full h-auto object-contain rounded-t-lg"
                     />
                   </div>
                 )}
