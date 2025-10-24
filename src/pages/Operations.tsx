@@ -52,6 +52,23 @@ const Operations = () => {
         </div>
       </section>
 
+      {/* Route Map */}
+      <section className="py-20 bg-background">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12 animate-fade-in">
+            <h2 className="text-4xl font-bold text-foreground mb-8">Route Map</h2>
+            <div className="flex justify-center">
+              <iframe 
+                src="https://www.google.com/maps/d/u/3/embed?mid=1CUyFdlJxuqlLM031h0kpaIWZdBHGMzY&ehbc=2E312F&noprof=1" 
+                width="640" 
+                height="480"
+                className="w-full max-w-4xl h-[480px] rounded-lg shadow-elegant border-0"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Our Routes */}
       <section className="py-20 bg-muted/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
