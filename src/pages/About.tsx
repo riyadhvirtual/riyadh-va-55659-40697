@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import riyadhAirPlane from "@/assets/riyadh-air-plane.png";
 import aryanProfile from "@/assets/aryan-profile-new.png";
-import riyadhAirTail from "@/assets/riyadh-air-tail.png";
 const About = () => {
   const features = [{
     icon: Globe,
@@ -36,19 +35,6 @@ const About = () => {
           <div className="text-center animate-fade-in">
             <h1 className="text-5xl font-bold mb-6">About Riyadh Air Virtual</h1>
             <p className="text-xl text-white/90 max-w-3xl mx-auto">Get to know more about the team of enthusiastic pilots behind this massive undertaking</p>
-          </div>
-        </div>
-      </section>
-
-      {/* Aircraft Image */}
-      <section className="py-12 bg-background">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="animate-fade-in">
-            <img 
-              src={riyadhAirTail} 
-              alt="Riyadh Air Aircraft" 
-              className="w-full h-auto rounded-lg shadow-elegant"
-            />
           </div>
         </div>
       </section>
@@ -90,9 +76,18 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <div className="lg:pl-12 animate-slide-up" style={{
+            <div className="lg:pl-12 animate-slide-up space-y-6" style={{
             animationDelay: "0.2s"
           }}>
+              <Card className="shadow-card">
+                <CardHeader>
+                  <CardTitle className="text-primary">Our Mission</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground">To provide the most authentic and professional virtual airline experience in the Middle East region, connecting pilots from around the world through our commitment to excellence and realistic operations, by emulating the operations of Riyadh Air.</p>
+                </CardContent>
+              </Card>
+              
               <Card className="shadow-card">
                 <CardHeader>
                   <CardTitle className="text-primary">Message From Our CEO</CardTitle>
@@ -110,20 +105,6 @@ const About = () => {
               </Card>
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* Our Mission */}
-      <section className="py-12 bg-background">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <Card className="shadow-card animate-fade-in">
-            <CardHeader>
-              <CardTitle className="text-primary text-center text-3xl">Our Mission</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <p className="text-muted-foreground text-lg text-center">To provide the most authentic and professional virtual airline experience in the Middle East region, connecting pilots from around the world through our commitment to excellence and realistic operations, by emulating the operations of Riyadh Air.</p>
-            </CardContent>
-          </Card>
         </div>
       </section>
 
